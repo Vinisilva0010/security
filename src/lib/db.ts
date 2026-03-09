@@ -15,11 +15,11 @@ export const posts: Post[] = [
     id: "isca-de-ouro-canary-token",
     title: "A Isca Perfeita: Rastreador de Hackers",
     description: "O QUE É: Uma armadilha psicológica. Hackers leem o código do seu site com robôs caçando senhas esquecidas. Vamos deixar uma 'chave de mentira' que funciona como um rastreador GPS. ONDE USAR: Em qualquer arquivo de configuração que vá para o frontend do seu site. COMO USAR: Gere um token gratuito no site CanaryTokens.org, cole no código com um comentário chamativo e espere o atacante tentar usar. Quando ele usar, você recebe o IP dele no seu e-mail.",
-    date: "12 MAR 2026",
+    date: "8 MAR 2026",
     imageSrc: "/assets/vip.png",
     codeSnippet: `// ARQUIVO: config/api-keys.ts (Deixamos isso vazar de propósito no frontend)
 
-// ⚠️ A ISCA: Hackers automatizam buscas por "sk_live_" (Stripe) ou "AKIA" (AWS).
+//  A ISCA: Hackers automatizam buscas por "sk_live_" (Stripe) ou "AKIA" (AWS).
 // Quando o atacante ler o comentário abaixo, a ganância vai cegar ele.
 // O que ele não sabe é que esse token foi gerado no CanaryTokens.org.
 // Assim que ele tentar rodar isso no terminal dele para roubar dados,
