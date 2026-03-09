@@ -193,8 +193,9 @@ export default function NightmareRoom() {
             animate={{ opacity: [1, 0, 1, 0.5, 1], x: [-10, 10, -10] }}
             transition={{ duration: 0.1, repeat: Infinity }}
           >
-            Distrua os  <br/> Hackers 
+            Destrua os  <br/> Hackers 
           </motion.h1>
+          
         </div>
       )}
     </div>

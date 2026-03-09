@@ -59,7 +59,7 @@ export default function HackerCard({ id, title, description, imageSrc, date }: H
         <h3 className="text-2xl font-black uppercase text-black leading-tight mb-2">
           {title}
         </h3>
-        <p className="text-black font-medium border-l-4 border-[#FF00FF] pl-3">
+        <p className="text-black font-medium border-l-4 border-[#FF00FF] pl-3 line-clamp-4">
           {description}
         </p>
       </div>

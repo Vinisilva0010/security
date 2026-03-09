@@ -62,11 +62,11 @@ export default function BizarreGrid() {
               animate={post.isSecret ? { opacity: 1, scale: 1, rotateY: 0 } : false}
               transition={{ type: "spring", stiffness: 100, damping: 10 }}
               
-              // A CORREÇÃO DE LARGURA AQUI: flex-none impede o esticamento bizarro
-              // No mobile: trava em 85vw com limite de 350px. No desktop: volta a preencher a coluna (w-full).
+             
               className={`flex-none w-[85vw] max-w-[350px] md:w-full md:max-w-none snap-center ${post.isSecret ? "drop-shadow-[0px_0px_30px_#FFD700]" : ""}`}
             >
               <HackerCard
+               
                 id={post.id}
                 title={post.title}
                 description={post.description}
