@@ -193,7 +193,7 @@ export default function NightmareRoom() {
             animate={{ opacity: [1, 0, 1, 0.5, 1], x: [-10, 10, -10] }}
             transition={{ duration: 0.1, repeat: Infinity }}
           >
-            SISTEMA COMPROMETIDO. <br/> SEU IP FOI GRAVADO.
+            Distrua os  <br/> Hackers 
           </motion.h1>
         </div>
       )}

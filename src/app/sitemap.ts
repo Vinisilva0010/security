@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { posts } from '@/lib/db'; // Puxamos os posts pra gerar as rotas
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://seusite.com.br'; // <-- Seu domínio final
+  const baseUrl = 'https://segurity.zanvexis.com'; // <-- Seu domínio final
 
   // A Home
   const routes = [

@@ -15,7 +15,7 @@ export const posts: Post[] = [
     id: "envenenando-localstorage", // Usamos strings legíveis para a URL ficar bonita (SEO)
     title: "Envenenando o LocalStorage",
     description: "Script para injetar tokens falsos e rastrear quem tentar roubá-los na aba Application.",
-    date: "10 DEZ 2026",
+    date: "10 DEZ 2025",
     imageSrc: "/assets/floppy.png",
     codeSnippet: `// Injetando veneno no LocalStorage
 function poisonTokens() {
@@ -36,7 +36,7 @@ poisonTokens();`
     id: "trava-devtools",
     title: "Trava de DevTools",
     description: "Como criar um loop de debugger infinito que congela a aba do invasor instantaneamente.",
-    date: "11 DEZ 2026",
+    date: "11 Nov 2025",
     imageSrc: "/assets/padlock.png", // Lembre de ter essas imagens na pasta public/assets
     codeSnippet: `// Loop da Morte para curiosos
 setInterval(function() {

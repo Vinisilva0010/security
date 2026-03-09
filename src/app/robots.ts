@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/', // Rota imaginária que não queremos indexar
     },
-    sitemap: 'https://seusite.com.br/sitemap.xml',
+    sitemap: 'https://segurity.zanvexis.com/sitemap.xml',
   };
 }

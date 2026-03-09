@@ -97,7 +97,7 @@ export default function HackerCombat() {
         <h1 className="text-[#FF00FF] text-4xl font-black">VS</h1>
 
         <div className="w-1/2 pl-4">
-          <h3 className="text-red-500 font-black uppercase text-xl text-right mb-1">Sistema Asilo</h3>
+          <h3 className="text-red-500 font-black uppercase text-xl text-right mb-1">Hacker</h3>
           <div className="w-full h-6 bg-gray-900 border-2 border-red-500 flex justify-end">
             <div className="h-full bg-red-500 transition-all duration-500" style={{ width: `${bossHP}%` }}></div>
           </div>

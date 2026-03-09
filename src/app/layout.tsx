@@ -4,8 +4,8 @@ import ConsoleHoneypot from "@/components/traps/ConsoleHoneypot"; // IMPORTA AQU
 import SlimeTrail from "@/components/ui/SlimeTrail";
 export const metadata: Metadata = {
   title: {
-    default: "Asilo Anti-Hacker | Zanvexis",
-    template: "%s | Asilo Anti-Hacker",
+    default: " Anti-Hacker | segurity",
+    template: "%s |  Anti-Hacker",
   },
   description: "Arsenal de códigos Brutalista e armadilhas de front-end. Inspecionar o elemento não vai te salvar aqui.",
   keywords: ["Cybersecurity", "Web3", "Next.js", "React Three Fiber", "Honeypot", "Zanvexis", "Vinicius Pontual", "Segurança Web"],
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "pt_BR",
     url: "https://seusite.com.br", // <-- Troque pro seu domínio depois
-    title: "Asilo Anti-Hacker | Zanvexis",
+    title: " Anti-Hacker | segurity",
     description: "Arsenal de códigos e armadilhas de front-end. Entre por sua conta e risco.",
     siteName: "Asilo Anti-Hacker",
     // imagens pro card do LinkedIn/Discord
@@ -30,9 +30,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Asilo Anti-Hacker",
+    title: " Anti-Hacker",
     description: "Arsenal brutalista de códigos de segurança.",
-    creator: "@seu_twitter", // Se tiver
+    creator: "@zanvexis", // Se tiver
   },
   robots: {
     index: true,
@@ -56,15 +56,15 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Asilo Anti-Hacker",
-    "url": "https://seusite.com.br",
+    "name": " Anti-Hacker",
+    "url": "https://segurity.zanvexis.com",
     "description": "Portfólio interativo focado em segurança ofensiva e desenvolvimento de alta performance.",
     "publisher": {
       "@type": "Organization",
       "name": "Zanvexis",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://seusite.com.br/assets/icone.png"
+        "url": "https://segurity.zanvexis.com/assets/icone0.png"
       }
     },
     "author": {

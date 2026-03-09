@@ -15,7 +15,7 @@ export default function Home() {
         <SceneWrapper />
 
         <ScrollGlitch>
-          Asilo <br /> Anti-Hacker
+            Anti-Hacker
         </ScrollGlitch>
         
         
