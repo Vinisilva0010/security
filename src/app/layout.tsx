@@ -8,6 +8,11 @@ export const metadata: Metadata = {
     template: "%s |  Anti-Hacker",
   },
   description: "Arsenal de códigos Brutalista e armadilhas de front-end. Inspecionar o elemento não vai te salvar aqui.",
+
+  icons: {
+    icon: '/favicon.png', 
+  },
+
   keywords: ["Cybersecurity", "Web3", "Next.js", "React Three Fiber", "Honeypot", "Zanvexis", "Vinicius Pontual", "Segurança Web"],
   authors: [{ name: "Vinicius Pontual", url: "https://github.com/Vinisilva0010" }],
   creator: "Vinicius Pontual",
@@ -64,7 +69,7 @@ export default function RootLayout({
       "name": "Zanvexis",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://segurity.zanvexis.com/assets/icone0.png"
+        "url": "https://segurity.zanvexis.com/assets/icone.png"
       }
     },
     "author": {

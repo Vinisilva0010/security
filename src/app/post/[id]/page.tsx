@@ -16,7 +16,7 @@ export default async function PostPage({ params }: { params: Promise<{ id: strin
   }
 
   return (
-    <main className="min-h-screen bg-yellow-400 p-6 md:p-12 cursor-[url('/assets/icone0.png'),_auto] selection:bg-black selection:text-[#FF00FF]">
+    <main className="min-h-screen bg-yellow-400 p-6 md:p-12 cursor-[url('/assets/icone.png'),_auto] selection:bg-black selection:text-[#FF00FF]">
       
       <div className="max-w-4xl mx-auto mb-12">
         <Link href="/">
