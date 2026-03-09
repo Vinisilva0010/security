@@ -173,26 +173,5 @@ setInterval(function() {
   }
 ,
 
-{
-    id: "zero-day-vip",
-    title: "Zero-Day Exploit (VIP)",
-    description: "PARABÉNS. Você quebrou a matrix. Script confidencial de evasão de sandbox.",
-    date: "13 DEZ 2026",
-    imageSrc: "/assets/vip.png", // A imagem dourada
-    isSecret: true, // Isso esconde ele por padrão
-    codeSnippet: `// ==========================================
-// ACESSO VIP DETECTADO.
-// CARREGANDO PAYLOAD NA MEMÓRIA...
-// ==========================================
 
-function bypassSandbox() {
-    console.log("%c[+] Injecting shellcode into V8 engine...", "color: #FFD700");
-    // Brincadeira visual para assustar quem ler o código
-    setTimeout(() => {
-        console.error("CRITICAL FAILURE: SIMULATION ONLY. NICE TRY, HACKER.");
-    }, 2000);
-}
-
-bypassSandbox();`
-  }
 ];
